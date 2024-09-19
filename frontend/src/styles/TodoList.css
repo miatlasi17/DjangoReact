@@ -1,0 +1,54 @@
+/* src/TodoList.css */
+
+.todo-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .todo-item.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .loading {
+    color: #007bff;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  

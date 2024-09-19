@@ -1,0 +1,12 @@
+/* ProductList.css */
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    justify-content: center; /* Center content horizontally */
+    max-width: 1200px; /* Max width of the container */
+    margin: 0 auto; /* Center container horizontally */
+  }
+  

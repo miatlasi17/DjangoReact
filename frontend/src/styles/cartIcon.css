@@ -1,0 +1,22 @@
+/* index.css */
+.cart-icon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cart-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 50%;
+  }
